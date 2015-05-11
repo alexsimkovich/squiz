@@ -1,0 +1,571 @@
+/**
+* Modules styles
+**/
+
+.modules-block {
+
+  .modules-box {
+    position: relative;
+
+    &.__research {
+      .research-block {
+        height: 455px;
+        padding: 23px 20px 25px 28px;
+        background-color: @color-light-gray;
+
+        .research-list {
+          .inline-ul();
+
+          li {
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 18px;
+            margin-bottom: 21px;
+            border-bottom: 1px solid #ccc;
+            
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .research-list_img {
+              display: inline-block;
+              vertical-align: top;
+              margin-right: 8px;
+              width: 76px;
+              height: 76px;
+              overflow: hidden;
+            }
+
+            .research-list_info {
+              display: inline-block;
+              vertical-align: top;
+              width: calc(~'100% - 87px');
+
+              .research-list_date {
+                font-size: 0.833em;
+                color: @color-black-light;
+                margin-bottom: 2px;
+              }
+
+              .research-list_t {
+                margin-bottom: 3px;
+
+                a {
+                  color: @color-red;
+                  font-size: 1.333em;
+                  line-height: 16px;
+                  text-decoration: none;
+
+                  &:hover {
+                    border-bottom: 1px solid #999;
+                  }
+                }
+              }
+
+              .research-list_author {
+                font-size: 1em;
+                color: @color-black-light;
+              }
+            }
+          }
+        }
+
+        .research-readmore {
+          margin-top: 5px;
+          
+          a {
+            font-size: 1.333em;
+            color: @color-red-dark;
+            line-height: 16px;
+            text-decoration: none;
+
+            &:after {
+              content: url(../../../assets/images/icons/readmore-arrow.png);
+              position: relative;
+              top: 8px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &.__events {
+      .events-block {
+        height: 455px;
+        padding: 23px 26px 25px 24px;
+        background-color: @color-black-light;
+
+        .events-list {
+          .inline-ul();
+
+          li {
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 18px;
+            margin-bottom: 21px;
+            border-bottom: 1px solid #ccc;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .events-list_img {
+              display: inline-block;
+              vertical-align: top;
+              margin-right: 5px;
+              width: 76px;
+              height: 76px;
+              overflow: hidden;
+            }
+
+            .events-list_info {
+              display: inline-block;
+              vertical-align: top;
+              width: calc(~'100% - 85px');
+
+              .events-list_date {
+                font-size: 0.833em;
+                color: @color-white;
+                margin-bottom: 2px;
+              }
+
+              .events-list_t {
+                margin-bottom: 3px;
+
+                a {
+                  color: @color-browngray;
+                  font-size: 1.333em;
+                  line-height: 16px;
+                  text-decoration: none;
+
+                  &:hover {
+                    border-bottom: 1px solid #999;
+                  }
+                }
+              }
+
+              .events-list_author {
+                font-size: 1em;
+                color: @color-white;
+              }
+            }
+          }
+        }
+
+        .events-readmore {
+          margin-top: 5px;
+
+          a {
+            font-size: 1.333em;
+            color: @color-browngray;
+            line-height: 16px;
+            text-decoration: none;
+
+            &:after {
+              content: url(../../../assets/images/icons/readmore-arrow.png);
+              position: relative;
+              top: 8px;
+
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &.__strategist {
+      .strategist-block {
+        height: 455px;
+        padding: 23px 30px 25px 15px;
+        background-color: @color-white;
+
+        .strategist-list {
+          .inline-ul();
+
+          li {
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 14px;
+            margin-bottom: 21px;
+            border-bottom: 1px solid #ccc;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .strategist-list_date {
+              display: inline-block;
+              margin-top: -5px;
+              margin-right: 5px;
+              width: 84px;
+              height: 85px;
+              text-align: center;
+              background: url(../../../assets/images/shadows/module-shadow.png) no-repeat left top;
+              
+              .month {
+                font-size: .833em;
+                line-height: 10px;
+                padding-top: 12px;
+                padding-bottom: 6px;
+                margin-left: 12px;
+                margin-right: 12px;
+                border-bottom: 1px solid #e9e9e9;
+              }
+
+              .day {
+                font-size: 2.5em;
+                font-weight: bold;
+                line-height: 20px;
+                padding-top: 5px;
+                padding-bottom: 6px;
+                margin-left: 12px;
+                margin-right: 12px;
+                border-bottom: 1px solid #e9e9e9;
+              }
+            }
+
+            .strategist-list_info {
+              display: inline-block;
+              vertical-align: top;
+              margin-top: -5px;
+              width: calc(~'100% - 92px');
+
+              .strategist-list_t {
+                margin-bottom: 3px;
+
+                a {
+                  color: @color-red;
+                  font-size: 1.333em;
+                  line-height: 16px;
+                  text-decoration: none;
+
+                  &:hover {
+                    border-bottom: 1px solid #999;
+                  }
+                }
+              }
+
+              .strategist-list_author {
+                font-size: 1em;
+                color: @color-black-light;
+              }
+            }
+          }
+        }
+
+        .strategist-readmore {
+          margin-top: 5px;
+
+          a {
+            font-size: 1.333em;
+            color: @color-red-dark;
+            line-height: 16px;
+            text-decoration: none;
+
+            &:after {
+              content: url(../../../assets/images/icons/readmore-arrow.png);
+              position: relative;
+              top: 8px;
+
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &.__opinion {
+      .opinion-block {
+        height: 453px;
+        padding: 10px 20px 15px 28px;
+        border-top: 2px solid #e0dad0;
+        background-color: #e3ddd4;
+
+        .opinion-list {
+          .inline-ul();
+
+          li {
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .opinion-list_info {
+              display: inline-block;
+              vertical-align: top;
+
+              .opinion-list_date {
+                font-size: 0.833em;
+                color: @color-black-light;
+                margin-bottom: 5px;
+                padding-left: 17px;
+              }
+
+              .opinion-list_t {
+                margin-bottom: 5px;
+                padding-left: 17px;
+
+                a {
+                  position: relative;
+                  display: inline-block;
+                  color: @color-red;
+                  font-size: 1.333em;
+                  line-height: 16px;
+                  text-decoration: none;
+
+                  &:before {
+                    content: url(../../../assets/images/icons/opinion-icon.png);
+                    position: absolute;
+                    left: -17px;
+                    display: inline-block;
+
+                  }
+
+                  &:hover {
+                    border-bottom: 1px solid #999;
+                  }
+                }
+              }
+
+              .opinion-list_author {
+                font-size: 1em;
+                color: @color-black-light;
+                padding-left: 17px;
+              }
+            }
+          }
+        }
+
+        .opinion-readmore {
+          margin-top: 5px;
+
+          a {
+            font-size: 1.333em;
+            color: @color-red-dark;
+            line-height: 16px;
+            text-decoration: none;
+
+            &:after {
+              content: url(../../../assets/images/icons/readmore-arrow.png);
+              position: relative;
+              top: 8px;
+
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &.__promo {
+      .promo-block {
+        height: 453px;
+
+        .promo-image {
+          position: relative;
+          height: 396px;
+          overflow: hidden;
+
+          img {
+            width: auto;
+            height: 100%;
+          }
+
+          .promo-image-caption {
+            position: absolute;
+            top: 152px;
+            left: 0;
+            width: 183px;
+            padding: 10px 11px;
+            font-size: 2em;
+            line-height: 24px;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: @color-white;
+            background-color: @color-red-dark;
+          }
+        }
+
+        .promo-readmore {
+          padding-top: 6px;
+          padding-bottom: 19px;
+          text-align: center;
+          border-top: 4px solid @color-red;
+          background-color: @color-black-light;
+
+          a {
+            font-size: 1.333em;
+            color: @color-white;
+            line-height: 16px;
+            text-decoration: none;
+
+            &:after {
+              content: url(../../../assets/images/icons/readmore-arrow.png);
+              position: relative;
+              top: 8px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    &.__twitter {
+      .twitter-block {
+        height: 453px;
+        padding: 10px 28px 25px 15px;
+        background-color: #f5f3ef;
+
+        .twitter-list {
+          .inline-ul();
+
+          li {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
+            padding-bottom: 7px;
+            border-bottom: 1px solid #ccc;
+
+            .twitter-post {
+              font-size: 1em;
+              line-height: normal;
+
+              a {
+                color: @color-red;
+              }
+            }
+
+            .twitter-date {
+              float: right;
+              color: @color-black-light;
+              font-size: .833em;
+            }
+
+            &:last-child {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .modules-block {
+    .modules-box {
+      &.__strategist {
+        .strategist-block {
+          height: 453px;
+        }
+      }
+
+      &.__research {
+        .research-block {
+          height: 453px;
+        }
+      }
+
+      &.__events {
+        .events-block {
+          height: 453px;
+        }
+      }
+
+      &.__promo {
+        .promo-block {
+          .promo-image {
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .modules-block {
+    .modules-box {
+      &.__strategist {
+        .strategist-block {
+          padding: 15px;
+          height: auto;
+
+          .strategist-list {
+            li {
+              .strategist-list_info {
+                width: calc(~'100% - 110px');
+              }
+            }
+          }
+
+          .strategist-readmore {
+            text-align: center;
+
+            a {
+              font-size: 1.3em;
+            }
+          }
+        }
+      }
+
+      &.__research {
+        .research-block {
+          padding: 15px;
+          height: auto;
+
+          .research-list {
+            li {
+
+            }
+          }
+        }
+      }
+
+      &.__events {
+        .events-block {
+          padding: 15px;
+          height: auto;
+        }
+      }
+
+      &.__promo {
+        .promo-block {
+          height: auto;
+
+          .promo-image {
+            height: auto;
+
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+
+      &.__opinion {
+        .opinion-block {
+          padding: 15px;
+          height: auto;
+        }
+      }
+
+      &.__twitter {
+        .twitter-block {
+          padding: 15px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

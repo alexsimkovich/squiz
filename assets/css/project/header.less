@@ -1,0 +1,155 @@
+/**
+* Header styles
+**/
+
+.header {
+  .header-block {
+    position: relative;
+    height: 39px;
+    background: #f4f4f4;
+
+    .header-logo {
+      position: absolute;
+      top: 14px;
+      left: 29px;
+      z-index: 1;
+    }
+
+    .header-menu {
+      float: right;
+      margin-right: 76px;
+
+      .header-menu_ul {
+        .inline-ul();
+
+        li {
+          display: inline-block;
+          padding-top: 13px;
+          padding-bottom: 11px;
+          margin-left: 39px;
+
+          a {
+            font-size: 1em;
+            text-transform: uppercase;
+            color: #4a4f57;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .header-search {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 39px;
+
+      .header-search-button {
+        position: absolute;
+        right: 0;
+        width: 56px;
+        height: 39px;
+        text-align: center;
+        padding-left: 17px;
+        padding-right: 17px;
+        background-color: @color-red-dark;
+
+        .search-button {
+          display: inline-block;
+          position: relative;
+          top: 8px;
+          background: url('../../../assets/images/sprite/sprite.png') no-repeat -2px -2px;
+          width: 22px;
+          height: 23px;
+          text-indent: -9999px;
+          border: none;
+
+          &:focus {
+            outline: 0;
+          }
+        }
+      }
+
+      .header-search-input {
+        position: absolute;
+        right: 56px;
+        width: 0;
+        height: 39px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: @color-red-dark;
+
+        .search-input {
+          display: inline-block;
+          width: 0;
+          height: 30px;
+          padding: 0;
+          border: none;
+          border-radius: 5px;
+          background: #7a0210;
+          background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdhMDIxMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5NjA0MTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+          background: -moz-linear-gradient(top, #7a0210 0%, #960415 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7a0210), color-stop(100%, #960415));
+          background: -webkit-linear-gradient(top, #7a0210 0%, #960415 100%);
+          background: -o-linear-gradient(top, #7a0210 0%, #960415 100%);
+          background: -ms-linear-gradient(top, #7a0210 0%, #960415 100%);
+          background: linear-gradient(to bottom, #7a0210 0%, #960415 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7a0210', endColorstr='#960415', GradientType=0);
+          box-shadow: inset 0px 2px 10px 4px rgba(0, 0, 0, 0.11);
+          -moz-box-shadow: inset 0px 2px 10px 4px rgba(0, 0, 0, 0.11);
+          -webkit-box-shadow: inset 0px 2px 10px 4px rgba(0, 0, 0, 0.11);
+          color: #fff;
+          .box-sizing();
+
+          &:focus {
+            outline: 0;
+          }
+        }
+
+        &.expanded {
+          padding-left: 11px;
+          width: 257px;
+
+          &>.search-input {
+            width: 246px;
+            border-left: 1px solid #f17b7b;
+            border-bottom: 1px solid #f17b7b;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    .header-block {
+      height: auto;
+
+      .header-logo {
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      .header-menu {
+        float: none;
+        margin: 10px 0;
+        text-align: center;
+
+        .header-menu_ul {
+          li {
+            margin-left: 10px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .header-search {
+        display: none;
+      }
+    }
+  }
+}

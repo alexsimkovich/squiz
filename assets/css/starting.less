@@ -1,0 +1,82 @@
+/**
+* Starting styles goes here
+**/
+
+body {
+  font-family: @font-sans;
+  font-size: 12px;
+  color: @color-black;
+  background-color: #fff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clearfix,
+.container {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+a {
+  .transitions();
+
+  &:hover,
+  &:focus {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .col4 {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 980px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .col4 {
+    float: left;
+    width: 33.33333333%;
+  }
+}
