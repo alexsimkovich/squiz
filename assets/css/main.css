@@ -2123,7 +2123,7 @@ a:hover.slidesjs-stop:before {
 **/
 .cart-icon {
   display: inline-block;
-  background: url('../../../assets/images/sprite/sprite.png') no-repeat -28px -3px;
+  background: url('../../../../assets/images/sprite/sprite.png') no-repeat -28px -3px;
   width: 21px;
   height: 21px;
 }
@@ -2361,7 +2361,7 @@ a:focus {
   width: 100%;
   padding-top: 21px;
   padding-bottom: 6px;
-  background: #e8e8e8 url(../../../assets/images/shadows/header-shadow.png) repeat-x center top;
+  background: #e8e8e8 url(../../../../assets/images/shadows/header-shadow.png) repeat-x center top;
 }
 .navigation .nav .nav_ul {
   margin: 0;
@@ -2388,7 +2388,7 @@ a:focus {
   text-decoration: underline;
 }
 .navigation .nav .nav_ul li.last {
-  background: url(../../../assets/images/shadows/nav-border.png) no-repeat left center;
+  background: url(../../../../assets/images/shadows/nav-border.png) no-repeat left center;
   padding-left: 13px;
   padding-right: 17px;
   margin-left: 46px;
@@ -2574,7 +2574,7 @@ a:focus {
   text-decoration: none;
 }
 .modules-block .modules-box.__research .research-block .research-readmore a:after {
-  content: url(../../../assets/images/icons/readmore-arrow.png);
+  content: url(../../../../assets/images/icons/readmore-arrow.png);
   position: relative;
   top: 8px;
   padding-left: 10px;
@@ -2643,7 +2643,7 @@ a:focus {
   text-decoration: none;
 }
 .modules-block .modules-box.__events .events-block .events-readmore a:after {
-  content: url(../../../assets/images/icons/readmore-arrow.png);
+  content: url(../../../../assets/images/icons/readmore-arrow.png);
   position: relative;
   top: 8px;
   padding-left: 10px;
@@ -2675,7 +2675,7 @@ a:focus {
   width: 84px;
   height: 85px;
   text-align: center;
-  background: url(../../../assets/images/shadows/module-shadow.png) no-repeat left top;
+  background: url(../../../../assets/images/shadows/module-shadow.png) no-repeat left top;
 }
 .modules-block .modules-box.__strategist .strategist-block .strategist-list li .strategist-list_date .month {
   font-size: .833em;
@@ -2728,7 +2728,7 @@ a:focus {
   text-decoration: none;
 }
 .modules-block .modules-box.__strategist .strategist-block .strategist-readmore a:after {
-  content: url(../../../assets/images/icons/readmore-arrow.png);
+  content: url(../../../../assets/images/icons/readmore-arrow.png);
   position: relative;
   top: 8px;
   padding-left: 10px;
@@ -2777,7 +2777,7 @@ a:focus {
   text-decoration: none;
 }
 .modules-block .modules-box.__opinion .opinion-block .opinion-list li .opinion-list_info .opinion-list_t a:before {
-  content: url(../../../assets/images/icons/opinion-icon.png);
+  content: url(../../../../assets/images/icons/opinion-icon.png);
   position: absolute;
   left: -17px;
   display: inline-block;
@@ -2800,7 +2800,7 @@ a:focus {
   text-decoration: none;
 }
 .modules-block .modules-box.__opinion .opinion-block .opinion-readmore a:after {
-  content: url(../../../assets/images/icons/readmore-arrow.png);
+  content: url(../../../../assets/images/icons/readmore-arrow.png);
   position: relative;
   top: 8px;
   padding-left: 10px;
@@ -2844,7 +2844,7 @@ a:focus {
   text-decoration: none;
 }
 .modules-block .modules-box.__promo .promo-block .promo-readmore a:after {
-  content: url(../../../assets/images/icons/readmore-arrow.png);
+  content: url(../../../../assets/images/icons/readmore-arrow.png);
   position: relative;
   top: 8px;
   padding-left: 10px;
