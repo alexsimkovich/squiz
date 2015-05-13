@@ -29,6 +29,14 @@ $(function(){
     },500);
   });
 
+  $(document).on("focusin", ".search-input", function(){
+    $(this).prev("label").hide();
+  });
+
+  $(document).on("focusout", ".search-input", function(){
+    $(this).prev("label").show();
+  });
+
   $("#slides").slidesjs({
     width: 980,
     height: 442,

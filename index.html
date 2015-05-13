@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,79 +17,126 @@
     <!-- Header -->
     <header class="header">
         <div class="header-block">
-          <div class="header-logo"><a href="#"><img src="assets/images/logo/logo.png" alt=""/></a></div>
+          <div class="header-logo"><a href="#"><img src="assets/images/logo/logo.png" alt="Squiz logo"/></a></div>
           <div class="header-menu">
             <ul class="header-menu_ul">
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Subscribe</a></li>
-              <li><a href="#">Login</a></li>
+              <li><a href="#" title="Contact us">Contact us</a></li>
+              <li><a href="#" title="Subscribe">Subscribe</a></li>
+              <li><a href="#" title="Login">Login</a></li>
             </ul>
           </div>
           <div class="header-search">
-            <div class="header-search-input">
-              <input class="search-input" type="search"/>
-            </div>
-            <div class="header-search-button">
-              <button class="search-button">Push me</button>
-            </div>
+            <form method="POST">
+              <div class="header-search-input">
+                <label for="search">Search</label>
+                <input class="search-input" id="search" type="search"/>
+              </div>
+              <div class="header-search-button">
+                <a href="#" class="search-button" title="Push me">Push me</a>
+              </div>
+            </form>
           </div>
         </div>
     </header>
     <!-- /Header -->
     <!-- Navigation -->
-    <section class="navigation">
-      <nav class="nav">
+    <nav class="navigation">
+      <div class="nav">
         <ul class="nav_ul">
-            <li><a href="#">About ASPI</a></li>
-            <li><a href="#">Media Centre</a></li>
-            <li><a href="#">Membership</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Publications</a></li>
-            <li><a href="#">Research</a></li>
-            <li class="last"><a href="#"><i class="cart-icon"></i></a></li>
+            <li><a href="#" title="About ASPI">About ASPI</a></li>
+            <li><a href="#" title="Media Centre">Media Centre</a></li>
+            <li><a href="#" title="Membership">Membership</a></li>
+            <li><a href="#" title="Events">Events</a></li>
+            <li><a href="#" title="Publications">Publications</a></li>
+            <li><a href="#" title="Research">Research</a></li>
+            <li class="last"><a href="#" title="Cart icon"><i class="cart-icon"></i></a></li>
           </ul>
-      </nav>
-    </section>
+      </div>
+    </nav>
     <!-- /Navigation -->
     <!-- Carousel -->
-    <section class="carousel">
+    <div class="carousel">
       <div class="carousel-block" id="slides">
-          <div>
-            <img src="assets/images/slidejs/slides/slide1.jpg">
-            <div class="carousel-overlay">
-              <div class="carousel-overlay_t">Latest News Item</div>
-              <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-            </div>
-          </div>
-          <div>
-            <img src="assets/images/slidejs/slides/slide1.jpg">
-            <div class="carousel-overlay">
-              <div class="carousel-overlay_t">Latest News Item</div>
-              <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-            </div>
-          </div>
-          <div>
-            <img src="assets/images/slidejs/slides/slide1.jpg">
-            <div class="carousel-overlay">
-              <div class="carousel-overlay_t">Latest News Item</div>
-              <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-            </div>
-          </div>
-          <div>
-            <img src="assets/images/slidejs/slides/slide1.jpg">
-            <div class="carousel-overlay">
-              <div class="carousel-overlay_t">Latest News Item</div>
-              <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-            </div>
-          </div> <div>
-            <img src="assets/images/slidejs/slides/slide1.jpg">
-            <div class="carousel-overlay">
-              <div class="carousel-overlay_t">Latest News Item</div>
-              <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-            </div>
+        <div>
+          <img src="assets/images/slidejs/slides/slide1.jpg" alt="SLide1">
+          <div class="carousel-overlay">
+            <div class="carousel-overlay_t">Latest News Item</div>
+            <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
           </div>
         </div>
-    </section>
+        <div>
+          <img src="assets/images/slidejs/slides/slide1.jpg" alt="slide2">
+          <div class="carousel-overlay">
+            <div class="carousel-overlay_t">Latest News Item</div>
+            <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/slidejs/slides/slide1.jpg" alt="slide3">
+          <div class="carousel-overlay">
+            <div class="carousel-overlay_t">Latest News Item</div>
+            <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/slidejs/slides/slide1.jpg" alt="slide4">
+          <div class="carousel-overlay">
+            <div class="carousel-overlay_t">Latest News Item</div>
+            <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div> <div>
+          <img src="assets/images/slidejs/slides/slide1.jpg" alt="slide5">
+          <div class="carousel-overlay">
+            <div class="carousel-overlay_t">Latest News Item</div>
+            <div class="carousel-overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+      </div>
+      <div class="cb-slideshow">
+        <div class="slide-nojs">
+          <span>1</span>
+          <div class="overlay">
+            <div class="overlay_t">Latest News Item</div>
+            <div class="overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div class="slide-nojs">
+          <span>2</span>
+          <div class="overlay">
+            <div class="overlay_t">Latest News Item</div>
+            <div class="overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div class="slide-nojs">
+          <span>3</span>
+          <div class="overlay">
+            <div class="overlay_t">Latest News Item</div>
+            <div class="overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div class="slide-nojs">
+          <span>4</span>
+          <div class="overlay">
+            <div class="overlay_t">Latest News Item</div>
+            <div class="overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div class="slide-nojs">
+          <span>5</span>
+          <div class="overlay">
+            <div class="overlay_t">Latest News Item</div>
+            <div class="overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+        <div class="slide-nojs">
+          <span>6</span>
+          <div class="overlay">
+            <div class="overlay_t">Latest News Item</div>
+            <div class="overlay_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- /Carousel -->
     <!-- Content -->
     <section class="content">
@@ -100,36 +147,36 @@
             <ul class="research-list">
               <li>
                 <div class="research-list_img">
-                  <a href="#"><img src="assets/images/modules/research/1.jpg" alt=""/></a>
+                  <a href="#" title="Joe Bloggs"><img src="assets/images/modules/research/1.jpg" alt="*"/></a>
                 </div>
                 <div class="research-list_info">
                   <div class="research-list_date">21 May 2013</div>
-                  <div class="research-list_t"><a href="#">Lorem Ipsum Setalol</a></div>
+                  <div class="research-list_t"><a href="#" title="Lorem Ipsum Setalol">Lorem Ipsum Setalol</a></div>
                   <div class="research-list_author">Joe Bloggs</div>
                 </div>
               </li>
               <li>
                 <div class="research-list_img">
-                  <a href="#"><img src="assets/images/modules/research/2.jpg" alt=""/></a>
+                  <a href="#" title="Joe Bloggs"><img src="assets/images/modules/research/2.jpg" alt="*"/></a>
                 </div>
                 <div class="research-list_info">
                   <div class="research-list_date">21 May 2013</div>
-                  <div class="research-list_t"><a href="#">Research publication with a really long title 2</a></div>
+                  <div class="research-list_t"><a href="#" title="Research publication with a really long title 2">Research publication with a really long title 2</a></div>
                   <div class="research-list_author">Joe Bloggs</div>
                 </div>
               </li>
               <li>
                 <div class="research-list_img">
-                  <a href="#"><img src="assets/images/modules/research/3.jpg" alt=""/></a>
+                  <a href="#" title="Joe Bloggs"><img src="assets/images/modules/research/3.jpg" alt="*"/></a>
                 </div>
                 <div class="research-list_info">
                   <div class="research-list_date">21 May 2013</div>
-                  <div class="research-list_t"><a href="#">Lorem Ipsum Setalol</a></div>
+                  <div class="research-list_t"><a href="#" title="Lorem Ipsum Setalol">Lorem Ipsum Setalol</a></div>
                   <div class="research-list_author">Joe Bloggs</div>
                 </div>
               </li>
             </ul>
-            <div class="research-readmore"><a href="#">View all research</a></div>
+            <div class="research-readmore"><a href="#" title="View all research">View all research</a></div>
           </div>
         </div>
         <div class="modules-box __events col4">
@@ -138,36 +185,36 @@
             <ul class="events-list">
               <li>
                 <div class="events-list_img">
-                  <a href="#"><img src="assets/images/modules/events/1.jpg" alt=""/></a>
+                  <a href="#" title="Joe Bloggs"><img src="assets/images/modules/events/1.jpg" alt="*"/></a>
                 </div>
                 <div class="events-list_info">
                   <div class="events-list_date">21 May 2013</div>
-                  <div class="events-list_t"><a href="#">Lorem Ipsum Setalol</a></div>
+                  <div class="events-list_t"><a href="#" title="Lorem Ipsum Setalol">Lorem Ipsum Setalol</a></div>
                   <div class="events-list_author"><strong>Speaker:</strong> Joe Bloggs</div>
                 </div>
               </li>
               <li>
                 <div class="events-list_img">
-                  <a href="#"><img src="assets/images/modules/events/2.jpg" alt=""/></a>
+                  <a href="#" title="Joe Bloggs"><img src="assets/images/modules/events/2.jpg" alt="*"/></a>
                 </div>
                 <div class="events-list_info">
                   <div class="events-list_date">21 May 2013</div>
-                  <div class="events-list_t"><a href="#">Lorem Ipsum Setalol</a></div>
+                  <div class="events-list_t"><a href="#" title="Lorem Ipsum Setalol">Lorem Ipsum Setalol</a></div>
                   <div class="events-list_author"><strong>Speaker:</strong> Joe Bloggs</div>
                 </div>
               </li>
               <li>
                 <div class="events-list_img">
-                  <a href="#"><img src="assets/images/modules/events/3.jpg" alt=""/></a>
+                  <a href="#" title="Joe Bloggs"><img src="assets/images/modules/events/3.jpg" alt="*"/></a>
                 </div>
                 <div class="events-list_info">
                   <div class="events-list_date">21 May 2013</div>
-                  <div class="events-list_t"><a href="#">Pellentesque habitant morbi tristique senectus et netus</a></div>
+                  <div class="events-list_t"><a href="#" title="Pellentesque habitant morbi tristique senectus et netus">Pellentesque habitant morbi tristique senectus et netus</a></div>
                   <div class="events-list_author"><strong>Speaker:</strong> Joe Bloggs</div>
                 </div>
               </li>
             </ul>
-            <div class="events-readmore"><a href="#">View all events</a></div>
+            <div class="events-readmore"><a href="#" title="View all events">View all events</a></div>
           </div>
         </div>
         <div class="modules-box __strategist col4">
@@ -180,7 +227,7 @@
                   <div class="day">24</div>
                 </div>
                 <div class="strategist-list_info">
-                  <div class="strategist-list_t"><a href="#">Strategist blog title 1</a></div>
+                  <div class="strategist-list_t"><a href="#" title="Strategist blog title 1">Strategist blog title 1</a></div>
                   <div class="strategist-list_desc">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Nam cursus condimentum at, laoreet mattis massa.</div>
                 </div>
               </li>
@@ -190,7 +237,7 @@
                   <div class="day">21</div>
                 </div>
                 <div class="strategist-list_info">
-                  <div class="strategist-list_t"><a href="#">Strategist blog title very very long title1</a></div>
+                  <div class="strategist-list_t"><a href="#" title="Strategist blog title 1">Strategist blog title very very long title1</a></div>
                   <div class="strategist-list_desc">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Nam cursus condimentum at, laoreet mattis</div>
                 </div>
               </li>
@@ -200,12 +247,12 @@
                   <div class="day">24</div>
                 </div>
                 <div class="strategist-list_info">
-                  <div class="strategist-list_t"><a href="#">Strategist blog title 1</a></div>
+                  <div class="strategist-list_t"><a href="#" title="Strategist blog title 1">Strategist blog title 1</a></div>
                   <div class="strategist-list_desc">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Nam cursus condimentum at, laoreet mattis massa.</div>
                 </div>
               </li>
             </ul>
-            <div class="strategist-readmore"><a href="#">Read more on The Strategist </a></div>
+            <div class="strategist-readmore"><a href="#" title="Read more on The Strategist">Read more on The Strategist</a></div>
           </div>
         </div>
         <div class="modules-box __opinion col4">
@@ -214,14 +261,14 @@
             <ul class="opinion-list">
               <li>
                 <div class="opinion-list_info">
-                  <div class="opinion-list_t"><a href="#">Lorem Ipsum Setalol</a></div>
+                  <div class="opinion-list_t"><a href="#" title="Lorem Ipsum Setalol">Lorem Ipsum Setalol</a></div>
                   <div class="opinion-list_date">21 May 2013</div>
                   <div class="opinion-list_author"><strong>Author:</strong> Joe blogs</div>
                 </div>
               </li>
               <li>
                 <div class="opinion-list_info">
-                  <div class="opinion-list_t"><a href="#">Lorem piece with a really really<br>
+                  <div class="opinion-list_t"><a href="#" title="Lorem piece with a really really">Lorem piece with a really really<br>
                     long title 2</a></div>
                   <div class="opinion-list_date">21 May 2013</div>
                   <div class="opinion-list_author"><strong>Author:</strong> Joe blogs</div>
@@ -229,13 +276,13 @@
               </li>
               <li>
                 <div class="opinion-list_info">
-                  <div class="opinion-list_t"><a href="#">Lorem Ipsum Setalol</a></div>
+                  <div class="opinion-list_t"><a href="#" title="Lorem Ipsum Setalol">Lorem Ipsum Setalol</a></div>
                   <div class="opinion-list_date">21 May 2013</div>
                   <div class="opinion-list_author"><strong>Author:</strong> Joe blogs</div>
                 </div>
               </li>
             </ul>
-            <div class="opinion-readmore"><a href="#">View all opinion pieces</a></div>
+            <div class="opinion-readmore"><a href="#" title="View all opinion pieces">View all opinion pieces</a></div>
           </div>
         </div>
         <div class="modules-box __promo col4">
@@ -244,7 +291,7 @@
               <img src="assets/images/modules/promo/promo-bg.jpg" alt=""/>
               <div class="promo-image-caption">Promotional Campaign Area</div>
             </div>
-            <div class="promo-readmore"><a href="#">Cyber Security Research</a></div>
+            <div class="promo-readmore"><a href="#" title="Cyber Security Research">Cyber Security Research</a></div>
           </div>
         </div>
         <div class="modules-box __twitter col4">
@@ -253,39 +300,39 @@
               <ul class="twitter-list">
                 <li>
                   <div class="twitter-post">
-                    <strong>Lorem</strong> <a href="#">@Lorem_org:</a>  Chinese military woos big business
-                    <a href="#">http://bit.ly/1agKZMs</a> via <a href="#">@smh</a>
+                    <strong>Lorem</strong> <a href="#" title="@Lorem_org">@Lorem_org:</a>  Chinese military woos big business
+                    <a href="#" title="http://bit.ly/1agKZMs">http://bit.ly/1agKZMs</a> via <a href="#" title="@smh">@smh</a>
                   </div>
                   <div class="twitter-date">5 hours ago</div>
                 </li>
                 <li>
                   <div class="twitter-post">
-                    <strong>The Osint Journal</strong> <a href="#">@TheOsintJournal:</a> The Osint
-                    Journal Daily Report is out! <a href="#">http://paperli/</a>
-                    <a href="#">TheOsintJournal/12565455656</a> > Top stories today
-                    via <a href="#">@DaveedGR</a> <a href="#">@thejoinstaff</a>
+                    <strong>The Osint Journal</strong> <a href="#" title="@TheOsintJournal">@TheOsintJournal:</a> The Osint
+                    Journal Daily Report is out! <a href="#" title="http://paperli/">http://paperli/</a>
+                    <a href="#" title="TheOsintJournal">TheOsintJournal/12565455656</a> > Top stories today
+                    via <a href="#" title="@DaveedGR">@DaveedGR</a> <a href="#" title="@thejoinstaff">@thejoinstaff</a>
                   </div>
                   <div class="twitter-date">5 hours ago</div>
                 </li>
                 <li>
                   <div class="twitter-post">
-                    <strong>CIMSEC</strong> <a href="#">@CIMSEC</a> New Post via <a href="#">@thinkdefence:</a>
+                    <strong>CIMSEC</strong> <a href="#" title="@CIMSEC">@CIMSEC</a> New Post via <a href="#" title="@thinkdefence">@thinkdefence:</a>
                     Meeting the Full Demands of Sea Control:
-                    <a href="#">http://goo.gl/CyIBe</a>  <a href="#">#ASW</a>
+                    <a href="#" title="http://goo.gl/CyIBe">http://goo.gl/CyIBe</a>  <a href="#" title="#ASW">#ASW</a>
                   </div>
                   <div class="twitter-date">5 hours ago</div>
                 </li>
                 <li>
                   <div class="twitter-post">
-                    <strong>Lorem</strong> <a href="#">@Lorem_org:</a>  Chinese military woos big business
-                    <a href="#">http://bit.ly/1agKZMs</a> via <a href="#">@smh</a>
+                    <strong>Lorem</strong> <a href="#" title="@Lorem_org">@Lorem_org:</a>  Chinese military woos big business
+                    <a href="#" title="http://bit.ly/1agKZMs">http://bit.ly/1agKZMs</a> via <a href="#" title="@smh">@smh</a>
                   </div>
                   <div class="twitter-date">5 hours ago</div>
                 </li>
                 <li>
                   <div class="twitter-post">
-                    <strong>CIMSEC</strong> <a href="#">@CIMSEC</a> New Post via @thinkdefence:
-                    Meeting the Full Demands <a href="#">http://goo.gl/CyIBe</a>  <a href="#">#ASW</a>
+                    <strong>CIMSEC</strong> <a href="#" title="@CIMSEC">@CIMSEC</a> New Post via @thinkdefence:
+                    Meeting the Full Demands <a href="#" title="http://goo.gl/CyIBe">http://goo.gl/CyIBe</a>  <a href="#" title="#ASW">#ASW</a>
                   </div>
                   <div class="twitter-date">5 hours ago</div>
                 </li>
@@ -300,20 +347,20 @@
       <div class="footer-top">
         <div class="footer-left">
           <ul class="footer-links">
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Copyright</a></li>
-            <li><a href="#">Accessibility</a></li>
+            <li><a href="#" title="Sitemap">Sitemap</a></li>
+            <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#" title="Copyright">Copyright</a></li>
+            <li><a href="#" title="Accessibility">Accessibility</a></li>
           </ul>
         </div>
         <div class="footer-right">
           <div class="footer-social">
-            <a href="#"><span class="tw"></span></a>
-            <a href="#"><span class="fb"></span></a>
-            <a href="#"><span class="yt"></span></a>
-            <a href="#"><span class="flkr"></span></a>
-            <a href="#"><span class="mail"></span></a>
-            <a href="#"><span class="rss"></span></a>
+            <a href="#" title="Twitter"><span class="tw"></span></a>
+            <a href="#" title="Facebook"><span class="fb"></span></a>
+            <a href="#" title="YouTube"><span class="yt"></span></a>
+            <a href="#" title="Flickr"><span class="flkr"></span></a>
+            <a href="#" title="Mail"><span class="mail"></span></a>
+            <a href="#" title="Rss"><span class="rss"></span></a>
           </div>
         </div>
         <div class="clearfix"></div>
